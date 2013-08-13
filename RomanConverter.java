@@ -241,6 +241,4 @@ import java.lang.*;
          public int toInt() {
             return num;
          }
-
-
       } // end class RomanNumeral
