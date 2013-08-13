@@ -2,9 +2,9 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>[soni]</groupId>
-  <artifactId>[RomanConversion.git]</artifactId>
-  <name>[RomanConversion]</name>
+  <groupId>soni</groupId>
+  <artifactId>RomanConversion.git</artifactId>
+  <name>RomanConversion</name>
   <version>[0.1]</version>
   <build>
         <sourceDirectory>D:\Git\repo\roman</sourceDirectory>
@@ -28,11 +28,14 @@
                   <id>asourcedd-</id>
                   <phase>RomanConverter/phase>
                   <goals>
-                      <goal>RomanConverter.java</goal>
+                      <goal>javac RomanConverter.java</goal>
                   </goals>
+                     <goals>
+                      <goal>javac ExtIO.java</goal>
+                     </goals>
                   <configuration>
                       <sources>
-                          <source>D:\Git\repo\roman</source>
+                          <source>java D:\Git\repo\roman\RomanConversion</source>
                       </sources>
                   </configuration>
                 </execution>
