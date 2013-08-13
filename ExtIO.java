@@ -274,8 +274,7 @@ public class ExtIO {
          outputErrorCount = 0;
       }
    }
-   
-   /**
+    /**
     * Puts a GUI file-selection dialog box on the screen in which the user can select
     * an output file.  If the user cancels the dialog instead of selecting a file, it is
     * not considered an error, but the return value of the subroutine is false.
