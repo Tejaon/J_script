@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RomanConversion.git", "RomanConversion.git\RomanConversion.git.vcxproj", "{0C350C31-3D3F-449F-AF81-772F1D42BF45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C350C31-3D3F-449F-AF81-772F1D42BF45}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0C350C31-3D3F-449F-AF81-772F1D42BF45}.Debug|Win32.Build.0 = Debug|Win32
+		{0C350C31-3D3F-449F-AF81-772F1D42BF45}.Release|Win32.ActiveCfg = Release|Win32
+		{0C350C31-3D3F-449F-AF81-772F1D42BF45}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

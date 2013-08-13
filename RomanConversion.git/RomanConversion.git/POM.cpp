@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>[soni]</groupId>
+  <artifactId>[RomanConversion.git]</artifactId>
+  <name>[RomanConversion]</name>
+  <version>[0.1]</version>
+  <build>
+        <sourceDirectory>D:\Git\repo\roman</sourceDirectory>
+        <outputDirectory>D:\Git\repo\roman</outputDirectory>
+        <plugins>
+           <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-compiler-plugin</artifactId>
+              <configuration>
+                  <source>1.5</source>
+                  <target>1.5</target>
+
+              </configuration>
+           </plugin>
+           <plugin>
+              <groupId>org.codehaus.mojo</groupId>
+              <artifactId>build-helper-maven-plugin</artifactId>
+              <version>1.1</version>
+              <executions>
+                <execution>
+                  <id>asourcedd-</id>
+                  <phase>RomanConverter/phase>
+                  <goals>
+                      <goal>RomanConverter.java</goal>
+                  </goals>
+                  <configuration>
+                      <sources>
+                          <source>D:\Git\repo\roman</source>
+                      </sources>
+                  </configuration>
+                </execution>
+              </executions>
+           </plugin>
+        </plugins>
+  </build>
+</project>
