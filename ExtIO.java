@@ -329,7 +329,6 @@ public class ExtIO {
       return true;
    }
    
-
    /**
     * If ExtIO is currently reading from a file, then the return value is the name of the file.  
     * If the class is reading from standard input or from a stream, then the return value is null.
@@ -347,7 +346,6 @@ public class ExtIO {
       return outputFileName;
    }
    
-
    // *************************** Output Methods *********************************
       
    /**
