@@ -7,8 +7,8 @@
   <name>RomanConversion</name>
   <version>[0.1]</version>
   <build>
-        <sourceDirectory>D:\Git\repo\roman</sourceDirectory>
-        <outputDirectory>D:\Git\repo\roman</outputDirectory>
+        <sourceDirectory>C:\Users\tejao_000\IdeaProjects\RomanConverter/</sourceDirectory>
+        <outputDirectory>C:\Users\tejao_000\IdeaProjects\RomanConverter</outputDirectory>
         <plugins>
            <plugin>
               <groupId>org.apache.maven.plugins</groupId>
@@ -35,7 +35,7 @@
                      </goals>
                   <configuration>
                       <sources>
-                          <source>java D:\Git\repo\roman\RomanConversion</source>
+                          <source>java C:\Users\tejao_000\IdeaProjects\RomanConverter</source>
                       </sources>
                   </configuration>
                 </execution>
